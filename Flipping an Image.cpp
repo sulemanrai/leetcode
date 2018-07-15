@@ -56,19 +56,7 @@ int main()
 //	vector<vector<int>> matrix = { {1,1,0},{1,0,1},{0,0,0} };
 	vector<vector<int>> matrix = { {1,1,0,0},{1,0,0,1},{0,1,1,1},{1,0,1,0} };
 	Solution s;
-	vector<vector<int>> ans = s.flipAndInvertImage(matrix);
-
-	// for(int i = 0; i < ans.size(); i++)
-	// {
-	// 	for(int j = 0; j < ans[i].size(); j++)
-	// 	{
-	// 		cout << ans[i][j] << ' ';
-	// 	}
-	// 	cout << endl;
-	// }
-	
-	//std::swap(a, b);
-	
+	vector<vector<int>> ans = s.flipAndInvertImage(matrix);	
 	s.printMatrix(ans);
 
 	return 0;
